@@ -1,0 +1,31 @@
+{
+  "name": "crypto-portfolio",
+  "version": "1.0.0",
+  "description": "A Cryptocurrency portfolio tracker",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azzoa/crypto-portfolio.git"
+  },
+  "keywords": [
+    "bitcoin"
+  ],
+  "author": "Azzoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azzoa/crypto-portfolio/issues"
+  },
+  "homepage": "https://github.com/azzoa/crypto-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6",
+    "node-sass": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
+  }
+}
